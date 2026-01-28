@@ -115,10 +115,10 @@ AI-ING/
 
 | 项目 | 文档 | 说明 |
 |------|------|------|
-| **Clawdbot** | [分析与部署指南](sumup/clawdbot-分析与部署指南.md) | 自托管个人 AI 助手：多通道收件箱、本地 Gateway、语音与画布、skill。含 npm / Docker / Fly.io / Render 部署 |
-| | [架构设计](sumup/clawdbot-architecture.md) | 系统架构、组件、数据流、扩展点、通信模式 |
-| | [核心原理](sumup/clawdbot-core-principles.md) | 设计原则、关键抽象、架构模式 |
-| | [实现细节](sumup/clawdbot-implementation.md) | 技术栈、依赖、实现与构建部署 |
+| **Clawdbot** | [分析与部署指南](sumup/clawdbot/clawdbot-分析与部署指南.md) | 自托管个人 AI 助手：多通道收件箱、本地 Gateway、语音与画布、skill。含 npm / Docker / Fly.io / Render 部署 |
+| | [架构设计](sumup/clawdbot/clawdbot-architecture.md) | 系统架构、组件、数据流、扩展点、通信模式 |
+| | [核心原理](sumup/clawdbot/clawdbot-core-principles.md) | 设计原则、关键抽象、架构模式 |
+| | [实现细节](sumup/clawdbot/clawdbot-implementation.md) | 技术栈、依赖、实现与构建部署 |
 
 更多项目会按「热度 + 实用性」陆续加入，并在 `sumup/` 下产出结构化文档。
 
@@ -146,7 +146,7 @@ AI-ING/
    打开 [sumup/每日前沿.md](sumup/每日前沿.md)，按日查看「当天最炸裂的发布」汇总，不漏大新闻。
 
 3. **看 `sumup/` 学项目**  
-   从 [sumup/clawdbot-分析与部署指南.md](sumup/clawdbot-分析与部署指南.md) 等文档入手，按「原理 → 架构 → 部署」跳读，省掉自己啃 README + 源码的时间。
+   从 [sumup/clawdbot-分析与部署指南.md](sumup/clawdbot/clawdbot-分析与部署指南.md) 等文档入手，按「原理 → 架构 → 部署」跳读，省掉自己啃 README + 源码的时间。
 
 4. **用本仓库里的 skill**  
    克隆后用支持 skill 的编辑器打开本仓库（或把 `.cursor/skills/` 下的技能目录拷贝到你的项目里），启用对应 skill，即可用「技术分析器」分析 `project/`、用 Code Review / Prompt Lookup 等干活。
